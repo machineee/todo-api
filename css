@@ -1,0 +1,123 @@
+
+@media print{
+*{-webkit-print-color-adjust:exact;text-shadow:none!important;}
+}
+
+*,::after,::before{box-sizing:content-box;}
+[tabindex="-1"]:focus:not(:focus-visible){outline:0!important;}
+p{margin-top:0;margin-bottom:1rem;}
+b{font-weight:bolder;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button{overflow:none;}
+button{text-transform:none;}
+[type=button],button{-webkit-appearance:button;}
+[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+}
+
+.ui-dialog{position:absolute;top:0;left:0;outline:0;}
+.ui-dialog .ui-dialog-titlebar{padding:.4em 1em;min-height:15px;position:relative;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;margin:.1em 0;width:90%;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title:hover{overflow:visible;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:21px;margin:-10px 0 0 0;padding:1px;height:14px;}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right;}
+.ui-dialog .ui-dialog-buttonpane button{margin:.5em .4em .5em 0;}
+.ui-dialog{background-color:#ffffff!important;z-index:600;border-radius:0;margin:20px;box-shadow:#1474bf 0 0 4px 0;}
+.ui-dialog .ui-dialog-titlebar{position:relative;cursor:move;background-color:#ffffff;background-image:none;border-width:0;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;margin:.1em 0;width:90%;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close{background-image:none;background-color:transparent;border-width:0;right:15px;position:absolute;top:50%;width:21px;padding:1px;height:20px;line-height:normal;overflow:hidden;}
+.ui-dialog .ui-dialog-content{padding:15px;}
+.ui-front{z-index:9999;}
+.ui-dialog-content{overflow:hidden;}
+.ui-resizable{position:relative;}
+.ui-resizable-handle{position:absolute;font-size:.1px;display:block;}
+.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0;}
+.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0;}
+.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%;}
+.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%;}
+.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px;}
+.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px;}
+.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px;}
+.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px;}
+.ui-helper-clearfix::before,.ui-helper-clearfix::after{content:"";display:table;border-collapse:collapse;}
+.ui-helper-clearfix::after{clear:both;}
+.ui-helper-clearfix{min-height:0;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{color:#29303f;font-size:23px;font-weight:300;margin-right:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ui-widget{font-family:'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+.ui-dialog .ui-dialog-content{min-width:300px!important;}
+
+.ui-dialog{position:absolute;top:0;left:0;outline:0;}
+.ui-dialog .ui-dialog-titlebar{padding:.4em 1em;min-height:15px;position:relative;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;margin:.1em 0;width:90%;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title:hover{overflow:visible;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:21px;margin:-10px 0 0 0;padding:1px;height:14px;}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right;}
+.ui-dialog .ui-dialog-buttonpane button{margin:.5em .4em .5em 0;}
+.ui-dialog{background-color:#ffffff!important;z-index:600;border-radius:0;margin:20px;box-shadow:#1474bf 0 0 4px 0;}
+.ui-dialog .ui-dialog-titlebar{position:relative;cursor:move;background-color:#ffffff;background-image:none;border-width:0;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;margin:.1em 0;width:90%;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close{background-image:none;background-color:transparent;border-width:0;right:15px;position:absolute;top:50%;width:21px;padding:1px;height:20px;line-height:normal;overflow:hidden;}
+.ui-dialog .ui-dialog-content{padding:15px;}
+.ui-front{z-index:9999;}
+.ui-dialog-content{overflow:hidden;}
+.ui-resizable{position:relative;}
+.ui-resizable-handle{position:absolute;font-size:.1px;display:block;}
+.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0;}
+.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0;}
+.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%;}
+.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%;}
+.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px;}
+.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px;}
+.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px;}
+.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px;}
+.ui-helper-clearfix::before,.ui-helper-clearfix::after{content:"";display:table;border-collapse:collapse;}
+.ui-helper-clearfix::after{clear:both;}
+.ui-helper-clearfix{min-height:0;}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-title{color:#29303f;font-size:23px;font-weight:300;margin-right:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.ui-widget{font-family:'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+*,::after,::before{box-sizing:content-box;}
+[tabindex="-1"]:focus:not(:focus-visible){outline:0!important;}
+p{margin-top:0;margin-bottom:1rem;}
+b{font-weight:bolder;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button{overflow:none;}
+button{text-transform:none;}
+[type=button],button{-webkit-appearance:button;}
+[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none;}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+p{orphans:3;widows:3;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');font-weight:100;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');font-weight:100;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');font-weight:300;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');font-weight:400;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');font-weight:400;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');font-weight:500;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');font-weight:500;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');font-weight:700;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');font-weight:700;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');font-weight:900;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');font-weight:900;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Thin-webfont.svg#robotothin') format('svg');font-weight:100;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-ThinItalic-webfont.svg#robotothin_italic') format('svg');font-weight:100;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Light-webfont.svg#robotolight') format('svg');font-weight:300;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');font-weight:300;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');font-weight:400;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Italic-webfont.svg#robotoitalic') format('svg');font-weight:400;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Medium-webfont.svg#robotomedium') format('svg');font-weight:500;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-MediumItalic-webfont.svg#robotomedium_italic') format('svg');font-weight:500;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Bold-webfont.svg#robotobold') format('svg');font-weight:700;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BoldItalic-webfont.svg#robotobold_italic') format('svg');font-weight:700;font-style:italic;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');font-weight:900;font-style:normal;}
+@font-face{font-family:'Roboto';src:url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.woff') format('woff'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.ttf') format('truetype'),url('https://crm20.telekom.rs/siebel/fonts/Roboto-BlackItalic-webfont.svg#robotoblack_italic') format('svg');font-weight:900;font-style:italic;}
